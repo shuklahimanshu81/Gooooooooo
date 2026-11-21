@@ -13,6 +13,8 @@ func main() {
 	fmt.Println("AI companies ", arr)
 	fmt.Println("Lenght is ", len(arr))
 
+	fmt.Printf("Type of arr is %T\n", arr)
+
 	var vegies = [3]string{"potato", "beans", "mushroom"}
 	fmt.Println(len(vegies))
 }
